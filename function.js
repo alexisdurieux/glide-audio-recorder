@@ -63,14 +63,14 @@ window.function = function (uploadUrl) {
 
                             fetch(${uploadUrl}, { method: "PUT", body: blob })
                                 .then(_ => ${uploadUrl})
-                                .catch((err) => 'error uploading blob ${err} to ${uploadUrl}')
+                                .catch((err) => 'error uploading blob')
                         };
 
                     })
 
                     // Error callback
                     .catch((err) => {
-                        console.error('The following getUserMedia error occurred: ${err}');
+                        console.error('The following getUserMedia error occurred');
                     });
             } else {
                 console.log("getUserMedia not supported on your browser!");
