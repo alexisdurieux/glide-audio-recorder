@@ -12,7 +12,7 @@
             }
         ],
         "result": {
-            "type": "string"
+            "type": "uri"
         }
     }
 ]
