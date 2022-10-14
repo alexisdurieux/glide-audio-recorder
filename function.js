@@ -16,5 +16,5 @@ window.function = function (uploadUrl) {
     let enc = encodeURIComponent(ht);
     let uri = `data:text/html;charset=utf-8,${enc}`
 
-  return ht
+  return uri
 }
