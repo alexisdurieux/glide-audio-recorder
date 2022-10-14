@@ -3,7 +3,7 @@
         "kind": "column",
         "name": "Audio recording",
         "description": "Records an audio",
-        "author": "",
+        "author": "alexis.durieux94@gmail.com",
         "params": [
             {
                 "name": "string",
