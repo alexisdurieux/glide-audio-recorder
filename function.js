@@ -13,6 +13,8 @@ window.function = function (uploadUrl) {
         </body>
     </html>
     `
-  
+    let enc = encodeURIComponent(ht);
+    let uri = `data:text/html;charset=utf-8,${enc}`
+
   return ht
 }
