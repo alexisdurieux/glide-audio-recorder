@@ -1,0 +1,18 @@
+[
+    {
+        "kind": "column",
+        "name": "Audio recording",
+        "description": "Records an audio",
+        "author": "",
+        "params": [
+            {
+                "name": "string",
+                "displayName": "Upload URL",
+                "type": "string"
+            }
+        ],
+        "result": {
+            "type": "string"
+        }
+    }
+]
